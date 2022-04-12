@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+    font-family: 'Hind Madurai', sans-serif;
+}
+.pg {
+    background-image: url("https://images.unsplash.com/photo-1649747512968-700219217db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-size: cover;
+}
+.tap {
+    font-size: 25px;
+    margin: 25px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(44, 45, 46);
+}
+.Facebook {
+    font-size: 25px;
+    color: rgb(44, 45, 46);
+    margin: 25px;
+    text-decoration: none;
+    
+}
+.Facebook a{
+    text-decoration: none;
+    color: rgb(44, 45, 46);
+}
+section {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    margin: 0px;
+    color: rgb(44, 45, 46);
+}
+.center {
+    font-size: 50px;
+    margin: 25px;
+    padding: 174px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    opacity: 0.90;
+}
+.myphoto{
+    width: 120px;
+    height: 135px;
+}
+.myprofile p {
+    font-size: 21px;
+}
+.mylanguage p {
+    font-size: 21px;
+}
+.myproject p {
+    font-size: 21px;
+}
